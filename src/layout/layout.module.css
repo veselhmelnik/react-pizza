@@ -1,0 +1,44 @@
+.layout {
+  background-color: white;
+  margin: 1.5rem;
+  min-height: 93vh;
+  border-radius: 10px;
+}
+
+.header {
+  min-height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #f6f6f6;
+  position: relative;
+  margin: auto 3rem;
+}
+.logo {
+  display: flex;
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.logo img {
+  object-fit: scale-down;
+  width: 38px;
+  height: 38px;
+  margin: auto;
+  margin-right: 17px;
+}
+.logo .name {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 24px;
+  color: black;
+}
+.logo .subname {
+  color: #7b7b7b;
+  font-size: 16px;
+}
+
+.content {
+  margin: 2rem 3rem;
+  min-height: 65vh;
+}

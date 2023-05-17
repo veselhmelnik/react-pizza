@@ -1,0 +1,37 @@
+.doughType {
+  padding: 7px;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+.doughType button {
+  cursor: pointer;
+  border: none;
+  padding: 8px 15px;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.doughType .disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.doughType .active {
+  background-color: white;
+  border-radius: 5px;
+}
+.typeButtons {
+  margin-bottom: 7px;
+}
+.typeButtons button {
+  width: 50%;
+}
+.sizeButtons,
+.typeButtons {
+  display: flex;
+  justify-content: space-between;
+}
+.sizeButtons button {
+  width: 33%;
+}
